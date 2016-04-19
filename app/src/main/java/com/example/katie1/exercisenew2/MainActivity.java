@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 // code will be here
                     num1 = Double.parseDouble(firstNumber.getText().toString());
                     num2 = Double.parseDouble(secondNumber.getText().toString());
-                    sum = num1 + num2;
+                    sum = num1 - num2;
                     addResult.setText(Double.toString(sum));
                 }
         });
